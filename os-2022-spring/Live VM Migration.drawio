@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T17:12:32.919Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" version="19.0.2" etag="3-u5cTxFrJCD0rda0yfK" type="github"><diagram id="towP1EH5TELHClemOwZh">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-07T17:14:40.464Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="nNmVcN95bekJhY7vcnIF" version="19.0.2" type="github">
+  <diagram id="towP1EH5TELHClemOwZh" name="Page-1">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5KBjUc8DJ1a1LLHlKpdy-2" value="source VM" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="700" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="5KBjUc8DJ1a1LLHlKpdy-16" value="destination VM" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="700" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="5KBjUc8DJ1a1LLHlKpdy-23" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=12;endSize=7.53;fillColor=#7EA6E0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="722" as="sourcePoint" />
+            <mxPoint x="340" y="722" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5KBjUc8DJ1a1LLHlKpdy-24" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/freecns-cumulus/32/519878-87_Lightning-128.png" vertex="1" parent="1">
+          <mxGeometry x="240" y="658.5" width="128" height="128" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
