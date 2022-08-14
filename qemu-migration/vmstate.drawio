@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-14T13:28:05.024Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.54" etag="-90qqJ8dASIRRJ049rwO" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-14T13:32:11.796Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.54" etag="R0rxO_g-pyJvPHClSTNv" version="20.2.3" type="github">
   <diagram id="pxF-jKxXXbTpe3DI_HJF" name="第 1 页">
     <mxGraphModel dx="2076" dy="2327" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -267,6 +267,24 @@
         </mxCell>
         <mxCell id="nlYihGZImAX18K_yNgeG-39" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;VM_DESCRIPTION&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F19C99;" vertex="1" parent="1">
           <mxGeometry x="120" y="720" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYihGZImAX18K_yNgeG-40" value="type 0x06(1)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYihGZImAX18K_yNgeG-41" value="QEMU_VM_DESCRIPTION = 0x06" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1130" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYihGZImAX18K_yNgeG-42" value="vm description len(4)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1160" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYihGZImAX18K_yNgeG-43" value="QJSON file for vm description(len)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1160" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYihGZImAX18K_yNgeG-44" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nlYihGZImAX18K_yNgeG-39" target="nlYihGZImAX18K_yNgeG-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="570" as="sourcePoint" />
+            <mxPoint x="570" y="970" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
