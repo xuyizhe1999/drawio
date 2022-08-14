@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-14T13:13:54.662Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.54" etag="1ZrxAuEvTae7KQUYwZq6" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-14T13:14:43.197Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.54" etag="IacZwMlgARIoC6P5_I7X" version="20.2.3" type="github">
   <diagram id="pxF-jKxXXbTpe3DI_HJF" name="第 1 页">
     <mxGraphModel dx="2076" dy="2327" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -210,6 +210,15 @@
         </mxCell>
         <mxCell id="nlYihGZImAX18K_yNgeG-21" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;font style=&quot;&quot;&gt;Completely same as&amp;nbsp;&lt;/font&gt;QEMU_VM_SECTION_PART&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="961" y="705" width="560" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYihGZImAX18K_yNgeG-22" value="type 0x7e(1)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="560" y="760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYihGZImAX18K_yNgeG-23" value="section id(4)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="680" y="760" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nlYihGZImAX18K_yNgeG-24" value="RAM_SAVE_FLAG_EOS = 0x10(8)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="680" width="320" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
