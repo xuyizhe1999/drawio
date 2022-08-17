@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-17T05:59:56.868Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.54" etag="IMX2CbCwakytv5CdMDBl" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-17T06:06:37.269Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.54" etag="vRrWUZTsDtxZyWLq8BRW" version="20.2.3" type="github">
   <diagram id="xbdcwXHPQUHZUbyYT70E" name="第 1 页">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -123,6 +123,27 @@
         </mxCell>
         <mxCell id="_aCOL6AofIa1MBWSSgmZ-29" value="vmstate transmission" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="630" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_aCOL6AofIa1MBWSSgmZ-30" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;startArrow=none;" edge="1" parent="1" source="_aCOL6AofIa1MBWSSgmZ-36" target="_aCOL6AofIa1MBWSSgmZ-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="160" as="sourcePoint" />
+            <mxPoint x="810" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_aCOL6AofIa1MBWSSgmZ-32" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-bold-vol-3-1/256/lightning-duotone-128.png;fontSize=18;fillColor=#F19C99;" vertex="1" parent="1">
+          <mxGeometry x="776" y="194.25" width="51.5" height="51.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_aCOL6AofIa1MBWSSgmZ-33" value="Crush!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="772" y="164" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_aCOL6AofIa1MBWSSgmZ-36" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/travello-basic-ui-1/64/Wrong-128.png;fontSize=18;fillColor=#F19C99;" vertex="1" parent="1">
+          <mxGeometry x="747" y="235" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="_aCOL6AofIa1MBWSSgmZ-37" value="" style="endArrow=none;html=1;rounded=0;fontSize=18;strokeColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="761" y="160" as="sourcePoint" />
+            <mxPoint x="760.5" y="235" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
