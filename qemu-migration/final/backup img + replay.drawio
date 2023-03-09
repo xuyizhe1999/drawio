@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T14:10:31.409Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.63" etag="2SwwG2yrX1A2ie6W1KUh" version="21.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-09T14:28:10.585Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.63" etag="k1tmdpBHmlxoojIlbFuE" version="21.0.4" type="github">
   <diagram name="第 1 页" id="Lb_gxIyqJA8a55h3Iyhm">
     <mxGraphModel dx="2854" dy="1147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -296,6 +296,9 @@
         </mxCell>
         <mxCell id="mzbfThB3kD6rosfz20jr-39" value="Backup Image" style="text;html=1;strokeColor=default;fillColor=#D4E1F5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="740" y="360" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mzbfThB3kD6rosfz20jr-109" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;t0: migration begins&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;&lt;div style=&quot;&quot;&gt;t1: VM eternally stops&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;on source&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;t2: backup thread is&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;up for backing up&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;dirty pages&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;t3: migration ends&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="560" width="360" height="440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
