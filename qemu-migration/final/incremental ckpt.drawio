@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2023-03-12T14:27:26.222Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.69" version="21.0.6" etag="HF0wMuUWl5XsMy2JB4K4" type="github"><diagram name="第 1 页" id="pgICPOOtObFUbfdvB3fF">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-12T14:28:19.073Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.69" etag="6dwfiTk6zvjPzsxS-BhN" version="21.0.6" type="github">
+  <diagram name="第 1 页" id="pgICPOOtObFUbfdvB3fF">
+    <mxGraphModel dx="2027" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YwSlnIoPw8c6heeCkJC2-1" value="incremental checkpoint 1" style="text;html=1;strokeColor=default;fillColor=#D4E1F5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="360" y="360" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YwSlnIoPw8c6heeCkJC2-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6FFCC;" vertex="1" parent="1">
+          <mxGeometry x="300" y="420" width="280" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="YwSlnIoPw8c6heeCkJC2-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="320" y="441" width="240" height="199" as="geometry" />
+        </mxCell>
+        <mxCell id="YwSlnIoPw8c6heeCkJC2-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;RAM Device&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="441" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YwSlnIoPw8c6heeCkJC2-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;VM State: Cpu states (t&#39;)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#67AB9F;" vertex="1" parent="1">
+          <mxGeometry x="300" y="660" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YwSlnIoPw8c6heeCkJC2-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Offset: 0x1&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="340" y="481" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YwSlnIoPw8c6heeCkJC2-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Content&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="440" y="481" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YwSlnIoPw8c6heeCkJC2-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;......&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="540" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YwSlnIoPw8c6heeCkJC2-9" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Offset: n&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="340" y="580" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YwSlnIoPw8c6heeCkJC2-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Content&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="440" y="580" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
