@@ -1,35 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2023-06-23T08:06:21.076Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51" etag="MaE_HaWg1RAEPebKP8ZF" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-23T08:23:32.623Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51" etag="gw8LnSreqfLQ-ixucdfg" version="21.3.7" type="github">
   <diagram name="第 1 页" id="M2nebdxIByR3aajpJkj1">
     <mxGraphModel dx="1566" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="LrE-v7Y--Oum1L01Bre4-1" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="360" width="120" height="80" as="geometry" />
+        <mxCell id="LrE-v7Y--Oum1L01Bre4-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;spawn&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="360" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="LrE-v7Y--Oum1L01Bre4-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;migration thread&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="380" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LrE-v7Y--Oum1L01Bre4-4" value="&lt;font size=&quot;3&quot;&gt;Thread Name&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="300" width="110" height="40" as="geometry" />
+        <mxCell id="LrE-v7Y--Oum1L01Bre4-4" value="&lt;font size=&quot;3&quot;&gt;pre-copy&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="300" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LrE-v7Y--Oum1L01Bre4-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;thread&lt;br&gt;names&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-200" y="530" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LrE-v7Y--Oum1L01Bre4-7" value="&lt;font size=&quot;3&quot;&gt;Time Section&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE599;" vertex="1" parent="1">
-          <mxGeometry y="300" width="110" height="40" as="geometry" />
+          <mxGeometry x="10" y="300" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LrE-v7Y--Oum1L01Bre4-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;backup thread&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="480" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LrE-v7Y--Oum1L01Bre4-9" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="460" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="LrE-v7Y--Oum1L01Bre4-10" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="560" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="LrE-v7Y--Oum1L01Bre4-11" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="660" width="120" height="80" as="geometry" />
+        <mxCell id="LrE-v7Y--Oum1L01Bre4-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;spawn&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="560" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="LrE-v7Y--Oum1L01Bre4-12" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;migration incoming thread&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="580" width="80" height="40" as="geometry" />
@@ -51,6 +45,39 @@
         </mxCell>
         <mxCell id="LrE-v7Y--Oum1L01Bre4-19" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="-20" y="600" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LrE-v7Y--Oum1L01Bre4-20" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="760" as="sourcePoint" />
+            <mxPoint x="120" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LrE-v7Y--Oum1L01Bre4-22" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;1. memory pre-copy&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. memory backup&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="360" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LrE-v7Y--Oum1L01Bre4-23" value="&lt;font size=&quot;3&quot;&gt;downtime&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="300" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LrE-v7Y--Oum1L01Bre4-25" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;spawn&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="460" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LrE-v7Y--Oum1L01Bre4-26" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;spawn&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="660" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LrE-v7Y--Oum1L01Bre4-27" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;1. start postcopy&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;2. vmstates copy&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. create backup thread&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="360" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LrE-v7Y--Oum1L01Bre4-28" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;load incoming memory&lt;/span&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="560" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LrE-v7Y--Oum1L01Bre4-29" value="&lt;font size=&quot;3&quot;&gt;post-copy&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="300" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LrE-v7Y--Oum1L01Bre4-30" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;backup dirty memory&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;according to the last&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 18px;&quot;&gt;sync&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 18px;&quot;&gt;on source host&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="460" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LrE-v7Y--Oum1L01Bre4-31" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;1. start postcopy&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px; background-color: initial;&quot;&gt;2. vmstates copy&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. create backup thread&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="560" width="240" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
