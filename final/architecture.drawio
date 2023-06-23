@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-23T07:05:42.333Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51" etag="-6VShvqMOr3PMk5O8fwI" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-23T07:07:43.166Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51" etag="gaDRI4sTVEzsJETzMHnV" version="21.3.7" type="github">
   <diagram name="第 1 页" id="OpDthlvLPTq0gWTyiU4q">
     <mxGraphModel dx="1566" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="clwCwBsSRwlgGcYmcAVy-1" value="Guest VM" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="80" y="380" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="clwCwBsSRwlgGcYmcAVy-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="clwCwBsSRwlgGcYmcAVy-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="40" y="430" width="260" height="210" as="geometry" />
         </mxCell>
         <mxCell id="clwCwBsSRwlgGcYmcAVy-3" value="Qemu" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -16,7 +16,7 @@
         <mxCell id="clwCwBsSRwlgGcYmcAVy-4" value="Migration&lt;br&gt;Module" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="480" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="clwCwBsSRwlgGcYmcAVy-5" value="Backup Image&lt;br&gt;Module" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="clwCwBsSRwlgGcYmcAVy-5" value="Backup Image&lt;br&gt;Module" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
           <mxGeometry x="140" y="480" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="clwCwBsSRwlgGcYmcAVy-6" value="VMstate Handler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -37,7 +37,7 @@
         <mxCell id="clwCwBsSRwlgGcYmcAVy-15" value="KVM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="650" width="220" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="clwCwBsSRwlgGcYmcAVy-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="clwCwBsSRwlgGcYmcAVy-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="380" y="430" width="220" height="210" as="geometry" />
         </mxCell>
         <mxCell id="clwCwBsSRwlgGcYmcAVy-17" value="Migration&lt;br&gt;Incoming&lt;br&gt;Module" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -52,7 +52,7 @@
             <mxPoint x="440" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="clwCwBsSRwlgGcYmcAVy-21" value="Incremental&lt;br&gt;Checkpoint&lt;br&gt;Module" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="clwCwBsSRwlgGcYmcAVy-21" value="Incremental&lt;br&gt;Checkpoint&lt;br&gt;Module" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
           <mxGeometry x="480" y="480" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="clwCwBsSRwlgGcYmcAVy-22" value="Guest VM" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
@@ -61,7 +61,7 @@
         <mxCell id="clwCwBsSRwlgGcYmcAVy-23" value="FS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-100" y="650" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="clwCwBsSRwlgGcYmcAVy-25" value="Failover&lt;br&gt;Module" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="clwCwBsSRwlgGcYmcAVy-25" value="Failover&lt;br&gt;Module" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
           <mxGeometry x="60" y="480" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="clwCwBsSRwlgGcYmcAVy-24" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#A9C4EB;endSize=3;width=7;endWidth=14;startArrow=none;startFill=0;strokeColor=none;" edge="1" parent="1" source="clwCwBsSRwlgGcYmcAVy-21">
