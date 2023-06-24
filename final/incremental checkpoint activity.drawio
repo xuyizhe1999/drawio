@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-24T05:41:32.641Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="JFNPbvrvCdQ-qPy-ud9W" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-24T05:43:47.296Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="d_ZF8nj6amDd4zwk3Vvg" version="21.5.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2019" dy="1156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -102,7 +102,7 @@
             <mxPoint x="-38" y="156" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QLr7s-B2L8XGsXLDNSKY-21" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;An new incremental checkpoint completes.&lt;br&gt;Start VM&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="QLr7s-B2L8XGsXLDNSKY-21" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;A new incremental checkpoint completes.&lt;br&gt;Start VM&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="280" y="760" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="QLr7s-B2L8XGsXLDNSKY-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
