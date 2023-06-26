@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-26T08:01:07.742Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="IAquNocUzmFXEahhXAAL" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-26T08:09:47.119Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="JiimivHnNZdPmeiDljJd" version="21.5.0" type="github">
   <diagram name="第 1 页" id="OpDthlvLPTq0gWTyiU4q">
     <mxGraphModel dx="2846" dy="1155" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -67,12 +67,6 @@
         <mxCell id="YOrxzBl4g7cKqVYeZxFf-65" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;3.1) downtime&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-160" y="410" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YOrxzBl4g7cKqVYeZxFf-66" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;RAM Backup Thread&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry y="630" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YOrxzBl4g7cKqVYeZxFf-68" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;3.2) create backup thread&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-260" y="660" width="220" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="YOrxzBl4g7cKqVYeZxFf-73" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#0066CC;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="280" y="420" as="sourcePoint" />
@@ -135,27 +129,6 @@
             <mxPoint x="-220.5" y="440" as="sourcePoint" />
             <mxPoint x="-220.5" y="500" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="YOrxzBl4g7cKqVYeZxFf-86" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-220" y="580" as="sourcePoint" />
-            <mxPoint y="660" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-220" y="660" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YOrxzBl4g7cKqVYeZxFf-87" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#0066CC;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="660" as="sourcePoint" />
-            <mxPoint x="460" y="820" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="460" y="660" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YOrxzBl4g7cKqVYeZxFf-88" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;3.3) backup last synced dirty memory&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="200" y="600" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YOrxzBl4g7cKqVYeZxFf-89" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -246,6 +219,42 @@
         </mxCell>
         <mxCell id="X6UQunPF7Dmfrj85ygFb-10" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;modified module&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-740" y="740" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X6UQunPF7Dmfrj85ygFb-12" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;RAM Backup Handler&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="80" y="630" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X6UQunPF7Dmfrj85ygFb-13" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;3.2) create backup thread&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="660" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X6UQunPF7Dmfrj85ygFb-14" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;strokeColor=#0066CC;exitX=0.4;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="660.52" as="sourcePoint" />
+            <mxPoint x="460" y="820" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X6UQunPF7Dmfrj85ygFb-15" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;3.3) backup last synced dirty memory&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="600" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X6UQunPF7Dmfrj85ygFb-16" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Backup Thread&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="630" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X6UQunPF7Dmfrj85ygFb-17" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-220" y="579.5" as="sourcePoint" />
+            <mxPoint x="-160" y="659.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-220" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X6UQunPF7Dmfrj85ygFb-18" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="659.5" as="sourcePoint" />
+            <mxPoint x="80" y="659.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
