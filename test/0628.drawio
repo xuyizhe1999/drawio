@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T13:34:14.424Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="bRMYVJ3zB9R5blPEmfdb" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-28T13:38:54.724Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="hUKGrA_UZG7YzwAfL5f9" version="21.5.1" type="github">
   <diagram name="第 1 页" id="_IjheSl7QAshpufOKkIA">
     <mxGraphModel dx="739" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -129,6 +129,9 @@
         </mxCell>
         <mxCell id="nGX4qhOkba135gFOiSer-58" value="把第2步挪到多活同步过程并发进行" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="490" y="390" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nGX4qhOkba135gFOiSer-59" value="核心问题：&lt;br&gt;1. Δ中是否包含cpu状态，关系到是否需要额外的停机时间&lt;br&gt;2. 多活的实现（主要是checkpoint）&lt;br&gt;&lt;br&gt;故事背景：&lt;br&gt;对checkpoint + migration模式的一种优化，并且相比之下有很多优点" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="160" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
