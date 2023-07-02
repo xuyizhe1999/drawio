@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-02T16:14:16.744Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67" etag="YfbcUYfD-kG3SSeQzcfA" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-02T16:33:30.978Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67" etag="M2o_qMa2cJ1MKldcBIQF" version="21.5.2" type="github">
   <diagram name="第 1 页" id="OpDthlvLPTq0gWTyiU4q">
     <mxGraphModel dx="2846" dy="1156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,9 +85,6 @@
         <mxCell id="YOrxzBl4g7cKqVYeZxFf-46" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Disk Interface&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="380" y="820" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="YOrxzBl4g7cKqVYeZxFf-48" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;2.2) memory backup&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="300" y="420" width="180" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="YOrxzBl4g7cKqVYeZxFf-52" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;2.1) memory pre-copy&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="420" y="340" width="200" height="40" as="geometry" />
         </mxCell>
@@ -133,12 +130,6 @@
             <mxPoint y="539" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YOrxzBl4g7cKqVYeZxFf-77" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;RAM State&lt;br style=&quot;font-size: 20px;&quot;&gt;(Duplicate)&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#CCCCCC;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry y="500" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="YOrxzBl4g7cKqVYeZxFf-78" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;RAM State&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="160" y="500" width="120" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="YOrxzBl4g7cKqVYeZxFf-79" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;dashed=1;dashPattern=1 1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="219.5" y="440" as="sourcePoint" />
@@ -183,9 +174,6 @@
               <mxPoint x="420" y="660.5" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="YOrxzBl4g7cKqVYeZxFf-88" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;3.3) backup last synced dirty memory&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="280" y="600" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YOrxzBl4g7cKqVYeZxFf-89" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -373,6 +361,18 @@
         </mxCell>
         <mxCell id="kRI8kTZbzlB6oU1YrDkl-1" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Migration Phases&lt;br&gt;1.x) : pre-copy setup&lt;br&gt;2.x) : pre-copy&lt;br&gt;3.x) : downtime&lt;br&gt;4.x) : post-copy setup&lt;br&gt;5.x) : post-copy&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-720" y="620" width="300" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="n8uSR00JqTWJ20ojII4U-31" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;2.2) memory initial&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; state backup&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="440" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n8uSR00JqTWJ20ojII4U-32" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Iteration State&lt;br style=&quot;font-size: 20px;&quot;&gt;(Duplicate)&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#CCCCCC;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry y="500" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n8uSR00JqTWJ20ojII4U-33" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Iteration State&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="160" y="500" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n8uSR00JqTWJ20ojII4U-34" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;3.3) dirty memory backup&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="600" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
